@@ -7,13 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @EnableAutoConfiguration
 public class SpringApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringApplication.class, args);
-	}
-
-	private static void run(Class<SpringApplication> class1, String[] args) {
-		// TODO Auto-generated method stub
-		
-	}
+    public static void main(String[] args) {
+        org.springframework.boot.SpringApplication.run(SpringApplication.class, args);
+    }
 
 }
