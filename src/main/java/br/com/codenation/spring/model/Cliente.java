@@ -29,7 +29,6 @@ public class Cliente {
 	private LocalDate dataCadastro;
 
 	@ManyToOne
-	@Column(name = "cod_cidade")
 	private Cidade codCidade;
 
 }

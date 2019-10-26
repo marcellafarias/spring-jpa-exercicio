@@ -2,11 +2,12 @@ package br.com.codenation.spring.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity(name = "estado")
 public class Estado {
 
-	@Column
+	@Id
 	private Integer codigo;
 
 	@Column
